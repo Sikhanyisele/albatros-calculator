@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#calculator {
+  border: 25px solid #3b444b;
+}
+#history {
+  word-spacing: 5px;
+}
+.current-calculation {
+  word-spacing: 5px;
 }

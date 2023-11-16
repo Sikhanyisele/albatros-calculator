@@ -6,6 +6,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+### `node version to be on`
+v16.15.0
+
+### `npm version to be on`
+8.5.5
+
+### `Libraries Installed`
+npm install --save @fortawesome/react-fontawesome   
+
+npm add @fortawesome/free-solid-svg-icons
+
+npm install -tailwind-css tailwindcss
+
+
 ### `npm start`
 
 Runs the app in the development mode.\

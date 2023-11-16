@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Calculator from "./calculator";
+import {useEffect} from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function CalculatorApp() {
+    useEffect(() => {
+        document.title = 'Calculator App';
+    }, []);
+
+    return (
+        <div className="CalculatorApp">
+            <Calculator />
+        </div>
+    );
 }
-
-export default App;
+export default CalculatorApp;
